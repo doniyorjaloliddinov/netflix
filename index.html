@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="./img/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <main>
+        <section class="main-wrapper py-3">
+            <div class="container mt-4">
+                <img class="site-logo m-auto d-block" src="./img/logo.svg" alt="site logo" width="150" height="45">
+                <h2 class="site-heading h1 text-center">Your adventure is here</h2>
+                <form class="form-movie js-movie-form" action="https://echo.htmlacademy.ru/" method="POST">
+                    <input class="movies-search js-search-input d-block m-auto mt-4" type="search" aria-label="movies-search" placeholder="Search movie?">
+                </form>
+                <ul class="movies-list js-movie-list mt-5 list-unstyled d-flex align-items-center justify-content-between flex-wrap">
+                
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+    <template id="movie-template">
+        <li class="movies-item">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="js-item-img card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="js-heading-item card-title">Card title</h5>
+                    <p class="js-movie-about card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                    <a href="#" class="js-movie-link ">Go somewhere</a>
+                </div>
+            </div>
+        </li>
+    </template>
+
+
+    <script src="./js/movies.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
