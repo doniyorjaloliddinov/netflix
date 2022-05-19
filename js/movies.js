@@ -11,21 +11,21 @@ var movies = [
     "runtime": 66,
     "language": "English",
     "ytid": "4hZi5QaMBFc",
-    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg"
   },
   {
     "Title": "New York Doll",
     "fulltitle": "New York Doll (2005)",
     "movie_year": 2005,
     "Categories": "Documentary|Music",
-    "summary": "A recovering alcoholic and recently converted Mormon, Arthur \"Killer\" Kane, of the rock band The New York Dolls, is given a chance at reuniting with his band after 30 years.",
+    "summary": "A recovering alcoholic and recently converted Mormon, Arthur Killer Kane, of the rock band The New York Dolls, is given a chance at reuniting with his band after 30 years.",
     "ImageURL": "https://hydramovies.com/wp-content/uploads/2018/04/New-York-Doll-Movie-Poster.jpg",
     "imdb_id": "tt0436629",
     "imdb_rating": 7.9,
     "runtime": 75,
     "language": "English",
-    "ytid": "jwD04NsnLLg"
-    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+    "ytid": "jwD04NsnLLg",
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg"
 
   },
   {
@@ -39,8 +39,8 @@ var movies = [
     "imdb_rating": 6.8,
     "runtime": 65,
     "language": "English",
-    "ytid": "uCKwHHftrU4"
-    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+    "ytid": "uCKwHHftrU4",
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg"
 
   },
   {
@@ -54,8 +54,8 @@ var movies = [
     "imdb_rating": 6.6,
     "runtime": 0,
     "language": "English",
-    "ytid": "JA03ciYt-Ek"
-    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+    "ytid": "JA03ciYt-Ek",
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg"
 
   },
   {
@@ -69,8 +69,8 @@ var movies = [
     "imdb_rating": 7.6,
     "runtime": 99,
     "language": "English",
-    "ytid": "8CdIiD6-iF0"
-    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+    "ytid": "8CdIiD6-iF0",
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg"
 
   },
   {
@@ -84,8 +84,8 @@ var movies = [
     "imdb_rating": 6.4,
     "runtime": 79,
     "language": "English",
-    "ytid": "H8oSvldAGfg"
-    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+    "ytid": "H8oSvldAGfg",
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg"
 
   },
   {
@@ -99,8 +99,8 @@ var movies = [
     "imdb_rating": 6.6,
     "runtime": 95,
     "language": "English",
-    "ytid": "7Pa_Weidt08"
-    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+    "ytid": "7Pa_Weidt08",
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg"
 
   },
   {
@@ -114,8 +114,8 @@ var movies = [
     "imdb_rating": 7.2,
     "runtime": 91,
     "language": "English",
-    "ytid": "s54vpKAFmS0"
-    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+    "ytid": "s54vpKAFmS0",
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg"
 
   },
   {
@@ -129,8 +129,8 @@ var movies = [
     "imdb_rating": 8.1,
     "runtime": 91,
     "language": "English",
-    "ytid": "5hfAExhHTMM"
-    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+    "ytid": "5hfAExhHTMM",
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg"
 
   },
   {
@@ -144,8 +144,8 @@ var movies = [
     "imdb_rating": 7.4,
     "runtime": 107,
     "language": "English",
-    "ytid": "E9Qv_XVJ-js"
-    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+    "ytid": "E9Qv_XVJ-js",
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg"
 
   },
   {
@@ -160,8 +160,8 @@ var movies = [
     "runtime": 108,
     "language": "English",
     "ytid": "3vqcMr1q5Uc",
-    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
-    
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg"
+
   },
   {
     "Title": "Tom Segura: Disgraceful",
