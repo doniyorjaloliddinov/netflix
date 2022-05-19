@@ -25,6 +25,8 @@ var movies = [
     "runtime": 75,
     "language": "English",
     "ytid": "jwD04NsnLLg"
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+
   },
   {
     "Title": "Mickey's Magical Christmas: Snowed in at the House of Mouse",
@@ -38,6 +40,8 @@ var movies = [
     "runtime": 65,
     "language": "English",
     "ytid": "uCKwHHftrU4"
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+
   },
   {
     "Title": "Mickey's House of Villains",
@@ -51,6 +55,7 @@ var movies = [
     "runtime": 0,
     "language": "English",
     "ytid": "JA03ciYt-Ek"
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
 
   },
   {
@@ -65,6 +70,8 @@ var movies = [
     "runtime": 99,
     "language": "English",
     "ytid": "8CdIiD6-iF0"
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+
   },
   {
     "Title": "An Extremely Goofy Movie",
@@ -78,6 +85,8 @@ var movies = [
     "runtime": 79,
     "language": "English",
     "ytid": "H8oSvldAGfg"
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+
   },
   {
     "Title": "Peter Rabbit",
@@ -91,6 +100,8 @@ var movies = [
     "runtime": 95,
     "language": "English",
     "ytid": "7Pa_Weidt08"
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+
   },
   {
     "Title": "Love Songs",
@@ -104,6 +115,8 @@ var movies = [
     "runtime": 91,
     "language": "English",
     "ytid": "s54vpKAFmS0"
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+
   },
   {
     "Title": 89,
@@ -117,6 +130,8 @@ var movies = [
     "runtime": 91,
     "language": "English",
     "ytid": "5hfAExhHTMM"
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+
   },
   {
     "Title": "The Foster Boy",
@@ -130,6 +145,8 @@ var movies = [
     "runtime": 107,
     "language": "English",
     "ytid": "E9Qv_XVJ-js"
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+
   },
   {
     "Title": "Forever My Girl",
@@ -142,7 +159,9 @@ var movies = [
     "imdb_rating": 6.4,
     "runtime": 108,
     "language": "English",
-    "ytid": "3vqcMr1q5Uc"
+    "ytid": "3vqcMr1q5Uc",
+    "img": "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg" 
+    
   },
   {
     "Title": "Tom Segura: Disgraceful",
