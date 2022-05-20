@@ -9,3 +9,26 @@
 .movies-search {
     outline: none;
 }
+
+.movies-item {
+
+}
+
+.content-wrapper {
+    width: 300px;
+    height: 500px;
+    margin-top: 15px;
+    padding: 25px;
+    border: 3px solid green;
+    border-radius: 45px;
+    overflow: auto;
+}
+
+.js-item-img {
+    width: 250px;
+    height: 250px;
+}
+
+.js-movie-about {
+    overflow: auto;
+}

@@ -4,13 +4,13 @@ let elSearchInput = $(".js-search-input", elFormMovie);
 let elReadyList = $(".js-movie-list");
 let elTemplateMovie = $("#movie-template").content;
 // console.log(elFormMovie,elSearchInput, elReadyList, elTemplateMovie);
-movies.splice(10);
+movies.splice(100);
 
 // MAKING MOVIE ARRAY MORE CLEAR
 let normalizedMovies = movies.map((movie, i) => {
     return movie = {
         id: i + 1,
-        img: movie.img,
+        image: `http://i3.ytimg.com/vi/${movie.ytid}/hqdefault.jpg`,
         title: movie.Title,
         year: movie.movie_year,
         info: movie.summary,
@@ -21,19 +21,20 @@ let normalizedMovies = movies.map((movie, i) => {
 
 // CREATING READY ELEMENTS
 let creatReadyElements = (movie) => {
+elReadyList.innerHTML = "";
+
     let readyElements = elTemplateMovie.cloneNode(true);
 
-    $(".js-item-img", readyElements).src = movie.img;
+    $(".js-item-img", readyElements).src = movie.image;
     $(".js-item-img", readyElements).alt = movie.title;
     $(".js-heading-item", readyElements).textContent = movie.title;
-    $(".js-item-img", readyElements).textContent = movie.year;
-    $(".js-movie-about", readyElements).textContent = movie.info;
+    $(".movie-primier", readyElements).textContent = movie.year;
     $(".js-movie-link", readyElements).href = `https://www.youtube.com/watch?v=${movie.video}`;
     $(".js-movie-link", readyElements).target = "_blank";
 
     return readyElements;
 }
-// console.log(readyElements);
+
 
 // CREATING FUNCTION FRAGMENT
 let renderMovies = (movies) => {
@@ -49,23 +50,20 @@ let renderMovies = (movies) => {
 renderMovies(normalizedMovies);
 // console.log(renderMovies(normalizedMovies));
 
-
 // SEARCH INPPUT FUNCTION
+// debugger;
 elFormMovie.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    let searchRegExp = new RegExp(elSearchInput.value.trim(), "gi");
+    let searchMovies = new RegExp(elSearchInput.value.trim(), "gi");
 
-    let readyList = normalizedMovies.filter((movie) => {
-        if (movie.title.match(searchRegExp)) {
-            return movie.title.match(searchRegExp)
-            console.log("something");
+    let searchResult = normalizedMovies.filter((movie) => {
+        if(movie.title.match(searchMovies)) {
+            return movie.title.match(searchMovies);
+            console.log("smth ");
         }
-        // else {
-        //     console.log("No such kind of movie");
-        // }
     })
-    renderMovies(readyList);
-});
+    renderMovies(searchResult);
 
-// console.log(movies);
+    console.log(renderMovies(searchResult));
+});
